@@ -19,5 +19,5 @@ jobs:
     - name: Install surge
       run:  npm install -g surge
     - name: Run surge
-      run: surge./learnbilal.surge.sh --token${{secret.token}}
+      run: surge./learnbilal.surge.sh --token${{secret.TOKEN}}
       
